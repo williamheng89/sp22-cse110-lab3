@@ -23,6 +23,7 @@
             </ul>
         </ul>
     </section>
+
     <section>
         <h4>Todays topics to discuss:</h4>
         <ul>
@@ -42,7 +43,7 @@
     </section>
 
     <hr>
-
+    
     <section>
         <!-- <h4>Questions and Concerns?</h4>
         <ul>
@@ -121,56 +122,67 @@
 
     <form action="test">
         <fieldset>
-
-            <label for="productivity">How much time did you put in this week?</label><br>
-            <select name="productivity" id="producivity">
-                <option value="small">0-5 hours</option>
-                <option value="medium">6-10 hours</option>
-                <option value="large">10+ hours</option>
-            </select>
-            <input type="submit" id="productivity" name="producitivy"><br><br>
-
-            <label for="improvement">What did you improve on recently?</label><br>
-            <input list="improvement" name="improvement" id="improvement">
-            <datalist id="improvement">
+            <span>
+                <label for="productivity">How much time did you put in this week?</label><br>
+                <select name="productivity" id="producivity">
+                    <option value="small">0-5 hours</option>
+                    <option value="medium">6-10 hours</option>
+                    <option value="large">10+ hours</option>
+                </select>
+                <input type="submit" id="productivity" name="producitivy"><br><br>
+            </span>
+            
+            <span>
+                <label for="improvement">What did you improve on recently?</label><br>
+                <input list="improvement" name="improvement" id="improvement">
+                <datalist id="improvement">
                 <option value="Programming">
                 <option value="Communication">
                 <option value="Problem Solving">
-            </datalist>
-            <input type="submit" id="improvement" name="improvement"><br><br>
-
-            <label for="self">Do you feel satisfied with your performance recently?</label><br>
-            <input type="radio" name="yes" id="yes" value="Yes">Yes<br>
-            <input type="radio" name="no" id="no" value="No">No<br>
-            <input type="submit" id="self" name="self"><br>
-            <label for="explanation">Why?</label><br>
-            <input type="text" name="explanation" id="explanation" cols="100" rows="10">
-            <input type="submit" id="explanation" name="explanation"><br><br>
+                </datalist>
+                <input type="submit" id="improvement" name="improvement"><br><br>
+            </span>
             
+            <span>
+                <label for="self">Do you feel satisfied with your performance recently?</label><br>
+                <input type="radio" name="yes" id="yes" value="Yes">Yes<br>
+                <input type="radio" name="no" id="no" value="No">No<br>
+                <input type="submit" id="self" name="self"><br>
+                <label for="explanation">Why?</label><br>
+                <input type="text" name="explanation" id="explanation" cols="100" rows="10">
+                <input type="submit" id="explanation" name="explanation"><br><br>
+            </span>
+            
+            <span>
+                <label for="active">Who's ideas do you want to hear more from?</label><br>
+                <input type="checkbox" name="Person1_ideas" id="Person1_ideas" value="Person1_ideas">
+                <label for="Person1_ideas">Person1</label><br>
+                <input type="checkbox" name="Person2_ideas" id="Person2_ideas" value="Person2_ideas">
+                <label for="Person2_ideas">Person2</label><br>
+                <input type="checkbox" name="Person3_ideas" id="Person3_ideas" value="Person3_ideas">
+                <label for="Person3_ideas">Person3</label><br>
+                <input type="checkbox" name="Person4_ideas" id="Person4_ideas" value="Person4_ideas">
+                <label for="Person4_ideas">Person4</label><br>
+                <input type="submit" id="active" name="active"><br><br>                
+            </span>
+            
+            <span>
+                <label for="date">Date Completed</label><br>
+                <input type="date" name="date" id="date">
+                <input type="submit" id="date" name="date"><br><br>
+            </span>
 
-            <label for="active">Who's ideas do you want to hear more from?</label><br>
-            <input type="checkbox" name="Person1_ideas" id="Person1_ideas" value="Person1_ideas">
-            <label for="Person1_ideas">Person1</label><br>
-            <input type="checkbox" name="Person2_ideas" id="Person2_ideas" value="Person2_ideas">
-            <label for="Person2_ideas">Person2</label><br>
-            <input type="checkbox" name="Person3_ideas" id="Person3_ideas" value="Person3_ideas">
-            <label for="Person3_ideas">Person3</label><br>
-            <input type="checkbox" name="Person4_ideas" id="Person4_ideas" value="Person4_ideas">
-            <label for="Person4_ideas">Person4</label><br>
-            <input type="submit" id="active" name="active"><br><br>
-
-            <label for="date">Date Completed</label><br>
-            <input type="date" name="date" id="date">
-            <input type="submit" id="date" name="date"><br><br>
-
-            <label for="suggestions">Suggestions for UI?</label><br>
-            <textarea name="suggestions" id="suggestions" cols="100" rows="10">Nope &#128077;</textarea><br>
-            <input type="submit" id="suggestions" name="suggestions"><br>
+            <span>
+                <label for="suggestions">Suggestions for UI?</label><br>
+                <textarea name="suggestions" id="suggestions" cols="100" rows="10">Nope &#128077;</textarea><br>
+                <input type="submit" id="suggestions" name="suggestions"><br>
+            </span>
+            
         </fieldset>
     </form>
     <br>
     <h3>Good Job Team!</h3>
-    <img src="images\fistBump.jpg" alt="Good Job"><br>
+    <img src="screenshots\fistBump.jpg" alt="Good Job"><br>
     <button>Click Me!</button>
   </body>
 </html>
