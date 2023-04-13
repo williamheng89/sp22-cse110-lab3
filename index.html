@@ -132,12 +132,12 @@
                 <span>
                     <label for="improvement"><em>What did you improve on recently?</em></label><br>
                     <input list="improvement" name="improvement" id="improvement">
-                    <datalist id="improvement">
+                    <datalist id="improvement-data">
                     <option value="Programming">
                     <option value="Communication">
                     <option value="Problem Solving">
                     </datalist>
-                    <input type="submit" id="improvement" name="improvement"><br><br>
+                    <input type="submit" id="improvement-input" name="improvement"><br><br>
                 </span>
                 
                 <span>
@@ -146,8 +146,8 @@
                     <input type="radio" name="no" id="no" value="No">No<br>
                     <input type="submit" id="self" name="self"><br>
                     <label for="explanation">Why?</label><br>
-                    <input type="text" name="explanation" id="explanation" cols="100" rows="10">
-                    <input type="submit" id="explanation" name="explanation"><br><br>
+                    <input type="text" name="explanation" id="explanation">
+                    <input type="submit" id="explanation-input" name="explanation"><br><br>
                 </span>
                 
                 <span>
@@ -166,13 +166,13 @@
                 <span>
                     <label for="date"><em>Date Completed</em></label><br>
                     <input type="date" name="date" id="date">
-                    <input type="submit" id="date" name="date"><br><br>
+                    <input type="submit" id="date-input" name="date"><br><br>
                 </span>
     
                 <span>
                     <label for="suggestions"><em>Suggestions for UI?</em></label><br>
-                    <textarea name="suggestions" id="suggestions" cols="100" rows="10">Nope &#128077;</textarea><br>
-                    <input type="submit" id="suggestions" name="suggestions"><br>
+                    <textarea name="suggestions" id="suggestions-textarea" cols="100" rows="10">Nope &#128077;</textarea><br>
+                    <input type="submit" id="suggestions-input" name="suggestions"><br>
                 </span>
                 
             </fieldset>
