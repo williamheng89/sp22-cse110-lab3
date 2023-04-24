@@ -1,3 +1,3 @@
 # Lab 3 - Starter
 
-[Github Pages](https://github.com/williamheng89/sp22-cse110-lab3)
+[Github Pages](https://williamheng89.github.io/sp22-cse110-lab3/)
